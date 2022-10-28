@@ -1,0 +1,225 @@
+.zoov__container{
+  padding-top: 205px;
+}
+.zoov__header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.zoov__logo{
+  max-width: 326px;
+}
+.zoov__text{
+  max-width: 777px;
+  font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #000000;
+}
+.zoov__hero{
+  padding-top: 80px;
+}
+.zoov__title-hero{
+  margin-top: 45px;
+  font-weight: 700;
+font-size: 16px;
+line-height: 130%;
+/* identical to box height, or 21px */
+
+
+color: #000000;
+
+}
+.zoov__hero-text{
+  font-weight: 400;
+font-size: 13px;
+line-height: 130%;
+/* identical to box height, or 17px */
+
+
+color: #9F9E9D;
+
+}
+.zoov__hero-text2{
+  max-width: 200px;
+  margin-top: 16px;
+  font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+/* or 20px */
+
+
+color: #434242;
+}
+.zoov__hero-text3{
+  margin-top: 11px;
+  font-weight: 400;
+font-size: 13px;
+line-height: 130%;
+/* identical to box height, or 17px */
+
+
+color: #9F9E9D;
+
+}
+.zoov__item{
+  max-width: 280px;
+}
+.zoov__link{
+  margin-top: 24px;
+  padding: 13px 42px;
+  font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+text-align: center;
+
+color: #961914;
+
+border: 1px solid #961914;
+border-radius: 8px;
+
+}
+.zoov__btn{
+  margin-top: 30px;
+  margin-left: 15px;
+  width: 40px;
+  height: 40px;
+  background-image: url(../../img/icons2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none;
+}
+.zoov__btn:active{
+animation-play-state: running;
+}
+.zoov__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.zoov__footer{
+  margin-top: 80px;
+  background-color: #EAD1D0;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 50px 54px;
+}
+.zoov__footer-text{
+  max-width: 705px;
+  font-weight: 500;
+font-size: 28px;
+line-height: 140%;
+/* or 39px */
+
+letter-spacing: 0.02em;
+
+color: #000000;
+
+}
+.zoov__footer-link{
+  padding: 13px 42px;
+  font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+text-align: center;
+
+color: #FFFFFF;
+background: #961914;
+border-radius: 8px;
+}
+
+.zoov__item{
+  object-fit: cover;
+  transition: 0.5s;
+  
+}
+.zoov__item:hover{
+  animation-play-state: running;
+  border: 2px solid red;
+  box-shadow: 5px 10px 5px ;
+  background-color: #EAD1D0;
+}
+.zoov__item:hover{
+animation-name: loops;
+animation-duration: 1s;
+animation-timing-function: linear;
+animation-iteration-count:1;
+
+}
+@keyframes loops {
+  0%{
+    transform:rotateY(360deg);
+  }
+  100%{
+    transform:rotateY(0deg);
+  }
+  50%{
+    transform:rotateY(180deg) ;
+  }
+}
+
+@media only screen and(max-width:1390px) {
+  .zoov__list:hover{
+    animation-play-state: running;
+    .zoov__item:nth-child(1){
+    display: none;
+    }
+    .zoov__item:nth-child(4){
+    display: none;
+    }
+    .zoov__item:nth-child(3){
+    display: none;
+    }
+    .zoov__item:nth-child(2){
+    display: inline-block;
+    }
+    }
+  .zoov__text{
+    display: none;
+  }
+  .zoov__logo{
+    margin: 0 auto;
+  }
+  .zoov__btn{
+    display: inline-block;
+  }
+  
+  .zoov__list{
+    flex-direction: column;
+    position: relative;
+    transform-style: preserve-3d;
+  }
+  .zoov__item:nth-child(4){
+    display: none;
+}
+.zoov__item:nth-child(3){
+display: none;
+}
+.zoov__item:nth-child(2){
+display: none;
+}
+.zoov__item:nth-child(1){
+z-index: 1;
+}
+  
+}
+
+@media only screen and(max-width:1060px) {
+  .zoov__footer{
+    flex-direction: column;
+   text-align: center;
+  }
+  .zoov__footer-text{
+    max-width: 250px;
+    font-size: 20px;
+line-height: 140%;
+  }
+  .zoov__footer-link{
+    margin-top: 24px;
+  }
+}

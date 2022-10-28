@@ -1,0 +1,79 @@
+.zoov2__container{
+  padding-top: 180px;
+}
+.zoov2__logo{
+  max-width: 289px;
+}
+.zoov2__item:nth-child(1):before{
+  content: "";
+  background-image: url(../../img/zoov1.png);
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-top: 57px;
+  margin-bottom: 16px;
+}
+.zoov2__item:nth-child(2):before{
+  content: "";
+  background-image: url(../../img/zoov2.png);
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-top: 57px;
+  margin-bottom: 16px;
+}
+.zoov2__item:nth-child(3):before{
+  content: "";
+  background-image: url(../../img/zoov3.png);
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-top: 57px;
+  margin-bottom: 16px;
+}
+.zoov2__item:nth-child(4):before{
+  content: "";
+  background-image: url(../../img/zoov4.png);
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-top: 57px;
+  margin-bottom: 16px;
+}
+.zoov2__title{
+  font-weight: 600;
+font-size: 18px;
+line-height: 130%;
+/* or 23px */
+
+
+color: #000000;
+}
+.zoov2__text{
+  font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+max-width: 250px;
+
+color: #000000;
+
+}
+.zoov2__list{
+  margin-bottom: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media only screen and(max-width:1370px) {
+  .zoov2__list{
+    flex-direction: column;
+  }
+  .zoov2__text{
+    max-width: 327px;
+  }
+}

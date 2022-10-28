@@ -1,0 +1,80 @@
+.sotuv__title{
+  margin-top: 180px;
+  margin-bottom: 80px;
+  font-weight: 700;
+font-size: 46px;
+line-height: 130%;
+/* identical to box height, or 60px */
+
+letter-spacing: 0.02em;
+
+color: #000000;
+
+}
+.sotuv__title2{
+  margin-top: 19px;
+  font-weight: 600;
+font-size: 18px;
+line-height: 130%;
+/* or 23px */
+
+
+color: #000000;
+}
+.sotuv__text{
+
+max-width: 264px;
+  font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #000000;
+}
+
+.sotuv__item:nth-child(1):before{ 
+  content: "";
+  background-image:url(../../img/Package\ \(1\).png);
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+}
+.sotuv__item:nth-child(2):before{ 
+  content: "";
+  background-image:url( ../../img/PhoneCall.png);
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+}
+.sotuv__item:nth-child(3):before{ 
+  content: "";
+  background-image:url(../../img/Clock.png);
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+}
+.sotuv__item:nth-child(4):before{ 
+  content: "";
+  background-image:url(../../img/Vector.png);
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+}
+.sotuv__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media only screen and(max-width:1395px) {
+  .sotuv__list{
+    flex-direction: column;
+  }
+  .sotuv__item{
+    margin-top: 40px;
+  }
+}

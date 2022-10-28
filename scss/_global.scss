@@ -1,0 +1,38 @@
+.html{
+  box-sizing: border-box;
+}
+*{
+  box-sizing: border-box;
+}
+*::before
+*::after
+{
+box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+ul,ol{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+body{
+  margin: auto;
+  font-family: 'Barlow', sans-serif;
+
+}
+
+.container{
+  max-width: 1420px;
+  margin: 0 auto;
+  padding: 0 120px;
+}
+img{
+  width: 100%;
+  height: auto;
+}

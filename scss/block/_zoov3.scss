@@ -1,0 +1,120 @@
+.zoov3__container{
+display: flex;
+align-items: start;
+justify-content: space-between;
+padding-top: 90px;
+padding-bottom: 90px;
+}
+.zoov3{
+  background-color: #FFF4F3;
+}
+.zoov3__img-block{
+position: relative;
+background-image: url(../../img/zoov3-img1.png);
+background-repeat: no-repeat;
+background-size: cover;
+width: 475px;
+height: 562px;
+
+}
+.zoov3__img-cont{
+  max-width: 475px;
+height: 562px;
+}
+.zoov3__img1{
+  position: absolute;
+  width: 183px;
+  height: 183px;
+  bottom: -10%;
+  left: -15%;
+}
+.zoov3__img2{
+  position: absolute;
+  width: 183px;
+  height: 183px;
+  top: 40%;
+ right: -20%;
+}
+.zoov3__img{
+  position: absolute;
+  width: 362px;
+  height: 389px;
+  top: 55%;
+   right: -20%;
+}
+.zoov3__title{
+  max-width: 415px;
+  font-weight: 700;
+font-size: 46px;
+line-height: 130%;
+letter-spacing: 0.02em;
+color: #000000;
+}
+.zoov3__text{
+  font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+color: #434242;
+
+}
+.zoov3__title{
+  margin-top: 40px;
+}
+.zoov3__item{
+  max-width: 520px;
+  margin-top:40px ;
+}
+@media only screen and(max-width:1358px) {
+  .zoov3__container{
+    flex-direction: column;
+    padding-bottom: 120px;
+  }
+  .zoov3__text{
+  
+    max-width: 324px;
+  }
+  .zoov3__content-block{
+    order: 1;
+  }
+  .zoov3__img-block{
+    margin-top: 76px;
+    order: 2;
+  }
+  
+}
+@media only screen and(max-width:600px) {
+  .zoov3__img-block{
+    width: 350px;
+height: 452px;
+
+  }
+  .zoov3__img{
+    width: 280px;
+    height: 300px;
+  }
+  .zoov3__img1{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    bottom: -10%;
+    left: -15%;
+  }
+  .zoov3__img2{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 40%;
+   right: -20%;
+  }
+}
+@media only screen and(max-width:440px){
+  .zoov3__img-block{
+    width: 270px;
+height: 370px;
+
+  }
+  .zoov3__img{
+    width: 200px;
+    height: 220px;
+  }
+}
